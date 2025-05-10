@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/HomeSection.css'; // Make sure to create this CSS file
+import profileImage from '../assets/HomeSectionImage.png';
 
 const HomeSection = () => {
   return (
@@ -7,7 +8,7 @@ const HomeSection = () => {
       <div className="home-container">
         <div className="home-image">
           <img
-            src="src\assets\HomeSectionImage.png"
+            src={profileImage}
             alt="21-year-old backend developer"
           />
         </div>
