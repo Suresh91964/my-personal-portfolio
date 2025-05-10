@@ -1,0 +1,111 @@
+.education-section {
+  padding: 60px 40px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.education-title span:first-child {
+  color: #ffffff;
+}
+
+.education-title span:last-child {
+  color: #90ee90;
+}
+
+.education-box {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #222;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease;
+  border-left: 5px solid #90ee90; /* Light green vertical line */
+}
+
+.education-box:hover {
+  border-color: #90ee90;
+}
+
+.education-content {
+  padding-left: 20px;
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.education-header h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.graduation-icon {
+  font-size: 30px;
+}
+
+.institution p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.education-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-icon {
+  font-size: 20px;
+}
+
+.dates {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+.cgpa {
+  font-size: 16px;
+  font-weight: 500;
+  color: #90ee90;
+}
+
+@media screen and (max-width: 768px) {
+  .education-section {
+    padding: 40px 20px;
+  }
+
+  .education-title {
+    font-size: 28px;
+  }
+
+  .education-box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .education-header h3 {
+    font-size: 22px;
+  }
+
+  .institution p {
+    font-size: 16px;
+  }
+
+  .education-details {
+    flex-direction: column;
+  }
+}

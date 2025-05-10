@@ -1,0 +1,141 @@
+.experience-section {
+  background-color: #121212;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.experience-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.experience-title .white {
+  color: #ffffff;
+}
+
+.experience-title .green {
+  color: #90ee90;
+}
+
+.experience-slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.experience-box {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 950px;
+  min-height: 450px;
+  box-sizing: border-box;
+  margin: 0 80px;
+}
+
+.experience-box:hover {
+  transform: translateY(-5px);
+}
+
+.company-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.company-title:hover {
+  transform: scale(1.05);
+  color: #90ee90;
+}
+
+.role-duration {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.duration {
+  color: #90ee90;
+  font-weight: bold;
+}
+
+.experience-highlights-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #90ee90;
+  text-align: left;
+}
+
+.experience-highlights {
+  text-align: left;
+  padding-left: 0;
+  list-style: none;
+}
+
+.experience-highlights li {
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.experience-highlights li:hover {
+  transform: translateX(5px);
+  color: #90ee90;
+}
+
+/* Nav buttons */
+.nav-button {
+  background-color: transparent;
+  border: 2px solid #90ee90;
+  color: #90ee90;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  background-color: #90ee90;
+  color: #000;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experience-box {
+    margin: 0 40px;
+    padding: 20px;
+  }
+
+  .company-title {
+    font-size: 22px;
+  }
+
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}

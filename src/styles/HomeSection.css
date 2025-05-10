@@ -1,0 +1,71 @@
+.home-section {
+  padding: 4rem 1rem;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+  color: #fff; /* Default white text for all elements */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.home-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.home-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.home-name {
+  font-size: 2rem;
+  color: #90ee90; /* Light green for name for contrast */
+  margin-bottom: 0.5rem;
+}
+
+.home-title {
+  font-size: 1.5rem;
+  color: #1e90ff; /* Lighter blue for better contrast */
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1rem;
+  color: #e0e0e0; /* Light gray for better readability */
+  line-height: 1.6;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home-image img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .home-name {
+    font-size: 1.8rem;
+  }
+
+  .home-title {
+    font-size: 1.3rem;
+  }
+}

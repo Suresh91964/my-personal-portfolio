@@ -1,0 +1,62 @@
+.skills-section {
+  scroll-margin-top: 80px;
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background-color: #1e1e1e; /* Match dark section like Projects */
+  color: #fff; /* Ensure white text across section */
+  font-family: Arial, sans-serif;
+}
+
+.section-title {
+  color: #90ee90; /* Light green for section title */
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #fff; /* Changed from #333 to white for visibility */
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 14px;
+  transition: border-color 0.3s;
+  background-color: #1e1e1e; /* Darker than section for contrast */
+  color: #fff; /* Ensure white text inside skill box */
+  min-width: 150px;
+  cursor: default;
+}
+
+.skill-box:hover {
+  border-color: #90ee90; /* Green border on hover */
+  cursor: pointer;
+}
+
+.skill-icon {
+  font-size: 24px;
+  color: #90ee90; /* Icon color for visibility */
+}
+
+.skill-icon-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
