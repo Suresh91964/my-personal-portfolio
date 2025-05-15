@@ -66,7 +66,9 @@ const SkillsSection = () => {
 
   return (
     <section className="skills-section" id='skills'>
-      <h2 className="section-title">My Skills</h2>
+      <h2 className="section-title">
+        <span className="my-white">My</span> <span className="skills-green">Skills</span>
+      </h2>
       <div className="category">
         <h3>Programming Languages</h3>
         <div className="skills-grid">{renderSkills(programmingLanguages)}</div>

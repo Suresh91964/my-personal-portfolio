@@ -1,12 +1,12 @@
 .home-section {
   padding: 4rem 1rem;
   background-color: #121212;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 55vh;
   color: #fff; /* Default white text for all elements */
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .home-container {

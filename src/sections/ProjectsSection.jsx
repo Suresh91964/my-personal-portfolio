@@ -3,107 +3,88 @@ import "../styles/ProjectsSection.css";
 
 const projects = [
   {
-    title: "E-Commerce Microservices Platform",
+    title: "E-Commerce Microservices Application",
     highlights: [
       {
+        heading: "Microservices Architecture",
+        description: "Developed services like product, order, user, inventory, and payment, each with independent databases."
+      },
+      {
         heading: "Service Discovery (Eureka)",
-        description:
-          "Implemented Spring Cloud Eureka for service registration and discovery."
+        description: "Enabled automatic registration and discovery of services using Spring Cloud Eureka."
       },
       {
         heading: "API Gateway",
-        description:
-          "Used Spring Cloud Gateway to route client requests."
+        description: "Used Spring Cloud Gateway for routing, logging, filtering, and auth."
       },
       {
-        heading: "Security",
-        description:
-          "Secured APIs using Spring Security, OAuth2.0, and JWT."
-      },
-      {
-        heading: "Kafka Messaging",
-        description:
-          "Used Apache Kafka for asynchronous microservice communication."
-      },
-      {
-        heading: "Redis",
-        description:
-          "Cached frequently accessed data with Redis for fast response."
+        heading: "Spring Security with JWT",
+        description: "Secured REST APIs with stateless JWT and role-based access control."
       },
       {
         heading: "Database Layer",
-        description:
-          "Used MySQL for relational and MongoDB for product data."
+        description: "MySQL used for transactional services, MongoDB for product catalog."
       },
       {
-        heading: "API Documentation (Swagger)",
-        description:
-          "Integrated Swagger for API interaction and understanding."
+        heading: "Inter-Service Communication",
+        description: "Implemented both REST (sync) and Kafka (async) for communication."
       },
       {
-        heading: "Deployment with Docker and Kubernetes",
-        description:
-          "Containerized microservices and orchestrated via Kubernetes."
+        heading: "Resilience (Resilience4j)",
+        description: "Applied circuit breakers, rate-limiting, and retries to ensure fault tolerance."
       },
       {
-        heading: "Monitoring",
-        description:
-          "Integrated Prometheus and Grafana for real-time metrics."
+        heading: "Inventory Management",
+        description: "Real-time stock checks and updates using inventory-service."
+      },
+      {
+        heading: "Swagger Documentation",
+        description: "Integrated Swagger for API documentation in each service."
+      },
+      {
+        heading: "Deployment (Docker + Kubernetes)",
+        description: "Containerized and deployed microservices with Docker and Kubernetes."
       },
       {
         heading: "Frontend (ReactJS)",
-        description:
-          "Built with ReactJS for interactive user experience."
+        description: "Responsive UI for product browsing, cart, orders, and authentication."
       }
     ]
   },
   {
-    title: "DevOps Monitoring Dashboard",
+    title: "Payment Microservice with Real-Time Notifications",
     highlights: [
       {
-        heading: "Prometheus",
-        description: "Scraped custom metrics from service endpoints."
+        heading: "Spring Boot Microservices",
+        description: "Dedicated payment and notification services built for scalability."
       },
       {
-        heading: "Grafana",
-        description: "Created dashboards and set alerts."
+        heading: "Kafka Messaging",
+        description: "Published payment events and consumed them in the notification service."
       },
       {
-        heading: "Docker Compose",
-        description: "Set up a full monitoring stack locally."
+        heading: "Secure Payment Handling",
+        description: "Simulated Stripe/PayPal with idempotency and ACID guarantees using MySQL."
       },
       {
-        heading: "Node Exporter",
-        description: "Monitored host-level metrics."
+        heading: "Spring Security with JWT",
+        description: "Protected APIs with JWT-based authentication and role control."
       },
       {
-        heading: "Slack Integration",
-        description: "Real-time alerts sent to Slack channels."
-      }
-    ]
-  },
-  {
-    title: "AI-Based Story Generator",
-    highlights: [
-      {
-        heading: "OpenAI API",
-        description: "Generated children’s stories dynamically."
+        heading: "Redis Caching",
+        description: "Used Redis for temporary payment states and fast access."
       },
       {
-        heading: "Voice Narration",
-        description: "Used Web Speech API for narration."
+        heading: "Notification Service",
+        description: "Sent real-time emails/SMS using Kafka event listeners."
       },
       {
-        heading: "MongoDB",
-        description: "Stored user-generated stories."
+        heading: "Swagger/OpenAPI",
+        description: "Documented APIs for easier testing and integration."
       },
       {
-        heading: "Streaming UI",
-        description: "Displayed story in typewriter animation style."
-      },
-      {
-        heading: "PDF Export",
-        description: "Enabled downloading stories as PDF."
+        heading: "Docker Deployment",
+        description: "Containerized both services for modular deployments via Docker/Kubernetes."
       }
     ]
   }
@@ -138,7 +119,7 @@ const ProjectsSection = () => {
           <ul className="project-highlights">
             {projects[current].highlights.map((item, index) => (
               <li key={index}>
-                <strong >{item.heading}:</strong> {item.description}
+                <strong>{item.heading}:</strong> {item.description}
               </li>
             ))}
           </ul>

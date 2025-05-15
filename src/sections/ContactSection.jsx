@@ -47,20 +47,20 @@ const ContactSection = () => {
           <h3 className="box-title">Send a Message</h3>
           <form 
             className="contact-form"
-            action="https://formsubmit.co/sureshpokala919@gmail.com"
-            method="POST"
+            // action="https://formsubmit.co/sureshpokala919@gmail.com"
+            // method="POST"
           >
             {/* Optional: FormSubmit configurations */}
-            <input type="hidden" name="_captcha" value="false" />
+            {/* <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="box" />
-            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+            <input type="hidden" name="_next" /> */}
 
             {/* Input Fields */}
             <input type="text" name="name" placeholder="Your name" required />
             <input type="email" name="email" placeholder="Your email" required />
             <textarea name="message" rows="4" placeholder="Your message" required></textarea>
             
-            <button type="submit" className="send-button">Send Message</button>
+            <button className="send-button">Send Message</button>
           </form>
         </div>
       </div>

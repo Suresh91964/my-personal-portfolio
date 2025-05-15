@@ -5,16 +5,23 @@
   box-sizing: border-box;
   background-color: #1e1e1e; /* Match dark section like Projects */
   color: #fff; /* Ensure white text across section */
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .section-title {
   color: #90ee90; /* Light green for section title */
-  font-size: 2em;
+  font-size: 36px;
   text-align: center;
   margin-bottom: 40px;
 }
 
+.my-white {
+  color: #ffffff; /* Make both words white */
+}
+
+.skills-green {
+  color: #90ee90;
+}
 .category {
   margin-bottom: 40px;
 }

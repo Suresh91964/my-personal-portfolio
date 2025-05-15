@@ -6,7 +6,10 @@ import { FaLinkedin } from 'react-icons/fa';
 const AboutSection = () => {
   return (
     <section className="about-section" id='about'>
-      <h2 className="about-title">About Myself</h2>
+      <h2 className="about-title">
+        <span className="about-white">About</span> <span className="myself-green">Myself</span>
+      </h2>
+
       <div className="about-flex">
         <img src={profileImage} alt="Profile" className="about-image" />
         <div className="about-text">

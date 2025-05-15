@@ -13,7 +13,7 @@ const FooterSection = () => {
         <a href="https://www.linkedin.com/in/suresh-kumar-pokala-829671210/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin className="footer-icon" />
         </a>
-        <a href="https://github.com/your-github-id" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a aria-label="GitHub">
           <FaGithub className="footer-icon" />
         </a>
         <a aria-label="Email">
