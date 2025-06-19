@@ -3,6 +3,93 @@ import "../styles/ProjectsSection.css";
 
 const projects = [
   {
+    title: "Battery-as-a-Service(BaaS)",
+    highlights: [
+      {
+        heading: "Microservices Architecture",
+        description: " Developed microservices for user registration, login, profile management, battery usage tracking, geolocation and payment gateway, leveraging Spring Boot."
+      },
+
+      {
+        heading: "Service Discovery (Eureka)",
+        description: "Enabled automatic registration and discovery of services using Spring Cloud Eureka."
+      },
+      {
+        heading: "API Gateway",
+        description: "Used Spring Cloud Gateway for routing, logging, filtering, and auth."
+      },
+      {
+        heading: "Spring Security with JWT",
+        description: "Secured REST APIs with stateless JWT and role-based access control."
+      },
+      {
+        heading: "Database Layer",
+        description: "MySQL used for transactional services, MongoDB for product catalog."
+      },
+      {
+        heading: "Inter-Service Communication",
+        description: "Implemented both REST (sync) and Kafka (async) for communication."
+      },
+      {
+        heading: "Resilience (Resilience4j)",
+        description: "Applied circuit breakers, rate-limiting, and retries to ensure fault tolerance."
+      },
+      {
+        heading: "Swagger Documentation",
+        description: "Integrated Swagger for API documentation in each service."
+      },
+      {
+        heading: "Deployment (Docker + Kubernetes)",
+        description: "Containerized and deployed microservices with Docker and Kubernetes."
+      },
+      {
+        heading: "Frontend (ReactJS)",
+        description: "Responsive UI for product browsing, cart, orders, and authentication."
+      }
+    ]
+  },
+  {
+    title: "Vehicle Telematics and Analytics Platform",
+    highlights: [
+      {
+        heading: "Microservices Architecture",
+        description: "Designed and implemented a scalable microservices architecture for a Vehicle Telematics and Analytics Platform, utilizing Spring Boot and Kafka for real-time data processing, enhancing system responsiveness and maintainability."
+      },
+      {
+        heading: "Service Discovery (Eureka)",
+        description: "Enabled automatic registration and discovery of services using Spring Cloud Eureka."
+      },
+      {
+        heading: "API Gateway",
+        description: "Used Spring Cloud Gateway for routing, logging, filtering, and auth."
+      },
+      {
+        heading: "Spring Security with JWT",
+        description: "Secured REST APIs with stateless JWT and role-based access control."
+      },
+      {
+        heading: "Database Layer",
+        description: "MySQL used for transactional services, MongoDB for product catalog."
+      },
+      {
+        heading: "Inter-Service Communication",
+        description: "Implemented both REST (sync) and Kafka (async) for communication."
+      },
+      {
+        heading: "Resilience (Resilience4j)",
+        description: "Applied circuit breakers, rate-limiting, and retries to ensure fault tolerance."
+      },
+      {
+        heading: "Swagger Documentation",
+        description: "Integrated Swagger for API documentation in each service."
+      },
+      {
+        heading: "Deployment (Docker + Kubernetes)",
+        description: "Containerized and deployed microservices with Docker and Kubernetes."
+      },
+    ]
+  },
+  {
     title: "E-Commerce Microservices Application",
     highlights: [
       {

@@ -15,12 +15,12 @@ const experiences = [
       {
         heading: "RESTful API Development",
         description:
-          "Designed and implemented RESTful APIs using Spring Boot and Core Java, achieved a 25% reduction in response time by optimizing data exchange between client and server through efficient queries and Redis caching."
+          "Designed and implemented RESTful APIs using Spring Boot and Core Java, achieved a 20% reduction in response time by optimizing data exchange between client and server through efficient queries and Redis caching."
       },
       {
         heading: "Microservices & Event-Driven Architecture",
         description:
-          "Developed and deployed a microservices architecture, leveraging Apache Kafka for event-driven communication and Redis for caching, reduced response time by up to 30% while improving system scalability and performance."
+          "Developed and deployed a microservices architecture, leveraging Apache Kafka for event-driven communication and Redis for caching, reduced response time by up to 15% while improving system scalability and performance."
       },
       {
         heading: "Database Management",
@@ -40,7 +40,7 @@ const experiences = [
       {
         heading: "Testing & QA",
         description:
-          "Achieved 90% code coverage by writing and maintaining unit and integration tests using JUnit and Mockito, ensuring high-quality, bug-free code."
+          "Achieved 80% code coverage by writing and maintaining unit and integration tests using JUnit and Mockito, ensuring high-quality, bug-free code."
       },
       {
         heading: "Debugging & Issue Resolution",

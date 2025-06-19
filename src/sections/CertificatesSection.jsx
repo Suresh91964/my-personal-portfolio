@@ -2,7 +2,10 @@ import '../styles/CertificatesSection.css';
 import { FaArrowRight, FaMedal } from 'react-icons/fa';
 
 
-const certificates = [
+
+
+const CertificatesSection = () => {
+  const certificates = [
   {
     title: "Advanced Java Programming",
     issuer: "LinkedIn Learning",
@@ -33,9 +36,7 @@ const certificates = [
     issuer: "LinkedIn Learning",
     url: "https://www.linkedin.com/learning/certificates/b7081e451ceeb77c7d9d28f69333fb7334f8710753770e0ed051ed2f84d90dde?trk=share_certificate"
   }
-];
-
-const CertificatesSection = () => {
+]
   return (
     <section className="certificates-section" id='certificates'>
       <h2 className="certificates-title">
